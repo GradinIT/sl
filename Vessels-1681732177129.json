@@ -1,0 +1,4127 @@
+{
+	"vehicles": [
+		{
+			"vehicle": {
+				"number": 350,
+				"name": "Färjorna gemensamt (ombord) (SMR/Br=Djurgården 11)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "F  ",
+					"name": "Djurgårdsfärja"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 350,
+				"signal_reg_nr": "350",
+				"reg_nr_smr": "SJND",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 482,
+				"name": "Djurgården Test",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "F  ",
+					"name": "Djurgårdsfärja"
+				},
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 482,
+				"motor_tpe": "IMO Tier I",
+				"signal_reg_nr": "482",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 485,
+				"name": "Ammis fartyg",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				},
+				"active": true,
+				"start_date": "2022-04-20"
+			},
+			"vessel_extra_information": {
+				"kst": 485,
+				"motor_tpe": "IMO Tier I",
+				"signal_reg_nr": "485",
+				"adveto_type": "MDB",
+				"telephone": "070-752 13 16"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 486,
+				"name": "Ammis G8 fartyg",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 12,
+				"max_capacity": 12,
+				"active": true,
+				"start_date": "2022-03-01"
+			},
+			"vessel_extra_information": {
+				"kst": 486,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 486,
+				"signal_reg_nr": "486",
+				"adveto_type": "JSON"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 502,
+				"name": "Norrskär",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Å  ",
+					"name": "Ångbåt"
+				},
+				"seating_capacity": 150,
+				"max_capacity": 265,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 502,
+				"mmsi": "265522430",
+				"motor_tpe": "Ång",
+				"rebus_id": 502,
+				"signal_reg_nr": "SGFD",
+				"reg_nr_smr": "SGFD",
+				"adveto_type": "MDB",
+				"smr": true,
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 503,
+				"name": "Storskär",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Å  ",
+					"name": "Ångbåt"
+				},
+				"seating_capacity": 150,
+				"max_capacity": 320,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 503,
+				"mmsi": "265522420",
+				"imo": "53 41 813",
+				"motor_tpe": "Ång",
+				"rebus_id": 503,
+				"signal_reg_nr": "SGPD",
+				"reg_nr_smr": "SGPD",
+				"adveto_type": "MDB",
+				"smr": true,
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 504,
+				"name": "Västan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "VÄ ",
+					"name": "Västan"
+				},
+				"seating_capacity": 130,
+				"max_capacity": 180,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 504,
+				"mmsi": "265522440",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 504,
+				"signal_reg_nr": "SFUK",
+				"reg_nr_smr": "SFUK",
+				"adveto_type": "MDB",
+				"smr": true,
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 505,
+				"name": "Tynningö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Ö  ",
+					"name": "Ö-båt"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 505,
+				"crane": true,
+				"rebus_id": 5,
+				"signal_reg_nr": "SKVM",
+				"reg_nr_smr": "SKVM",
+				"adveto_type": "MDB",
+				"smr": true,
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 506,
+				"name": "Ramsö W",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Ö  ",
+					"name": "Ö-båt"
+				},
+				"max_capacity": 205
+			},
+			"vessel_extra_information": {
+				"kst": 506,
+				"imo": "64 17 528",
+				"crane": true,
+				"rebus_id": 6,
+				"signal_reg_nr": "SKUE",
+				"reg_nr_smr": "SKUE",
+				"adveto_type": "MDB",
+				"smr": true,
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 507,
+				"name": "Skarpö W",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Ö  ",
+					"name": "Ö-båt"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 507,
+				"crane": true,
+				"rebus_id": 7,
+				"signal_reg_nr": "507",
+				"reg_nr_smr": "SLZE",
+				"adveto_type": "MDB",
+				"smr": true,
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 508,
+				"name": "Djurgården 9, Skg",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 508,
+				"signal_reg_nr": "508",
+				"reg_nr_smr": "SJOH",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 509,
+				"name": "Havsörnen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Ha ",
+					"name": "Havsörnen"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 509,
+				"signal_reg_nr": "682",
+				"reg_nr_smr": "SIBY",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 512,
+				"name": "Silverö WÅAB",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Si ",
+					"name": "Silverö"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 512,
+				"signal_reg_nr": "691",
+				"reg_nr_smr": "SDAK",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 513,
+				"name": "Waxholm I",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "W  ",
+					"name": "WI/WII"
+				},
+				"seating_capacity": 182,
+				"max_capacity": 350,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 513,
+				"mmsi": "265522500",
+				"imo": "82 18 330",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 513,
+				"signal_reg_nr": "SKMI",
+				"reg_nr_smr": "SKMI",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 514,
+				"name": "Waxholm II",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "W  ",
+					"name": "WI/WII"
+				},
+				"seating_capacity": 182,
+				"max_capacity": 350,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 514,
+				"mmsi": "265522510",
+				"imo": "82 24 999",
+				"motor_tpe": "IMO Tier II",
+				"crane": true,
+				"rebus_id": 514,
+				"signal_reg_nr": "SKNW",
+				"reg_nr_smr": "SKNW",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 519,
+				"name": "Skärgården",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "S/R",
+					"name": "Skärg/Rosl"
+				},
+				"seating_capacity": 168,
+				"max_capacity": 298,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 519,
+				"mmsi": "265522480",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 519,
+				"signal_reg_nr": "SFTJ",
+				"reg_nr_smr": "SFTJ",
+				"adveto_type": "MDB",
+				"smr": true,
+				"telephone": "070-735 11 00, skargarden@mail.nu"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 520,
+				"name": "Roslagen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "S/R",
+					"name": "Skärg/Rosl"
+				},
+				"seating_capacity": 168,
+				"max_capacity": 298,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 520,
+				"mmsi": "265522490",
+				"imo": "78 26 805",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 520,
+				"signal_reg_nr": "SFYZ",
+				"reg_nr_smr": "SFYZ",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 522,
+				"name": "Vindöga",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "ÖGA",
+					"name": "ÖGA-båt"
+				},
+				"seating_capacity": 90,
+				"max_capacity": 180,
+				"active": true,
+				"start_date": "2021-06-01"
+			},
+			"vessel_extra_information": {
+				"kst": 522,
+				"mmsi": "265522520",
+				"imo": "77 20 398",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 522,
+				"signal_reg_nr": "SFRA",
+				"reg_nr_smr": "SFRA",
+				"adveto_type": "MDB",
+				"smr": true,
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 523,
+				"name": "Solöga",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "ÖGA",
+					"name": "ÖGA-båt"
+				},
+				"seating_capacity": 90,
+				"max_capacity": 180,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 523,
+				"mmsi": "265522530",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 523,
+				"signal_reg_nr": "SFXY",
+				"reg_nr_smr": "SFXY",
+				"adveto_type": "MDB",
+				"smr": true,
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 524,
+				"name": "Djurgården 4",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 207,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 524,
+				"mmsi": "265633770",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 524,
+				"signal_reg_nr": "SDTM",
+				"reg_nr_smr": "SDTM",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 527,
+				"name": "Djurgården 7",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 197,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 527,
+				"mmsi": "265633760",
+				"motor_tpe": "Ä-2,5",
+				"rebus_id": 527,
+				"signal_reg_nr": "SGEK",
+				"reg_nr_smr": "SGEK",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 528,
+				"name": "Djurgården 8",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "F  ",
+					"name": "Djurgårdsfärja"
+				},
+				"seating_capacity": 75,
+				"max_capacity": 298,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 528,
+				"mmsi": "265586620",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 528,
+				"signal_reg_nr": "SDJL",
+				"reg_nr_smr": "SDJL",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 529,
+				"name": "Djurgården 9 ",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "F  ",
+					"name": "Djurgårdsfärja"
+				},
+				"seating_capacity": 75,
+				"max_capacity": 298,
+				"active": true,
+				"start_date": "2021-06-08"
+			},
+			"vessel_extra_information": {
+				"kst": 529,
+				"mmsi": "265548410",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 529,
+				"signal_reg_nr": "SJOH",
+				"reg_nr_smr": "SJOH",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 530,
+				"name": "Djurgården 10",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "F  ",
+					"name": "Djurgårdsfärja"
+				},
+				"seating_capacity": 75,
+				"max_capacity": 298,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 530,
+				"mmsi": "265586630",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 530,
+				"signal_reg_nr": "SKGD",
+				"reg_nr_smr": "SKGD",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 531,
+				"name": "Djurgården 11",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "F  ",
+					"name": "Djurgårdsfärja"
+				},
+				"seating_capacity": 75,
+				"max_capacity": 298,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 531,
+				"mmsi": "265584790",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 531,
+				"signal_reg_nr": "SJND",
+				"reg_nr_smr": "SJND",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 532,
+				"name": "Djurgårdsfärjan samling",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "F  ",
+					"name": "Djurgårdsfärja"
+				},
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 532,
+				"rebus_id": 532,
+				"signal_reg_nr": "MWRO",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 535,
+				"name": "Värmdö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "V  ",
+					"name": "V-båt"
+				},
+				"seating_capacity": 176,
+				"max_capacity": 340,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 535,
+				"mmsi": "265520390",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 535,
+				"signal_reg_nr": "SMXZ",
+				"reg_nr_smr": "SMXZ",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 536,
+				"name": "Vånö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "V  ",
+					"name": "V-båt"
+				},
+				"seating_capacity": 176,
+				"max_capacity": 340,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 536,
+				"mmsi": "265520400",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 536,
+				"signal_reg_nr": "SBNM",
+				"reg_nr_smr": "SBNM",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 537,
+				"name": "Väddö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "V  ",
+					"name": "V-båt"
+				},
+				"seating_capacity": 176,
+				"max_capacity": 340,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 537,
+				"mmsi": "265520420",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 537,
+				"signal_reg_nr": "SCFR",
+				"reg_nr_smr": "SCFR",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 538,
+				"name": "Viberö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "V  ",
+					"name": "V-båt"
+				},
+				"seating_capacity": 176,
+				"max_capacity": 340,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 538,
+				"mmsi": "265520410",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 538,
+				"signal_reg_nr": "SCRX",
+				"reg_nr_smr": "SCRX",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 539,
+				"name": "Vaxö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "V  ",
+					"name": "V-båt"
+				},
+				"seating_capacity": 176,
+				"max_capacity": 340,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 539,
+				"mmsi": "265520430",
+				"imo": "90 58 282",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 539,
+				"signal_reg_nr": "SDWE",
+				"reg_nr_smr": "SDWE",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 540,
+				"name": "Saxaren",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "V  ",
+					"name": "V-båt"
+				},
+				"seating_capacity": 148,
+				"max_capacity": 340,
+				"active": true,
+				"start_date": "2022-12-08"
+			},
+			"vessel_extra_information": {
+				"kst": 540,
+				"mmsi": "265512110",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 540,
+				"signal_reg_nr": "SKHW",
+				"reg_nr_smr": "SKHW",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 545,
+				"name": "Söderarm",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "L  ",
+					"name": "Lotsbåtar"
+				},
+				"seating_capacity": 325,
+				"max_capacity": 500,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 545,
+				"mmsi": "265538450",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 545,
+				"signal_reg_nr": "SFBW",
+				"reg_nr_smr": "SBFW",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 546,
+				"name": "Sandhamn",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "L  ",
+					"name": "Lotsbåtar"
+				},
+				"seating_capacity": 325,
+				"max_capacity": 500,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 546,
+				"mmsi": "265547830",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 546,
+				"signal_reg_nr": "SGEF",
+				"reg_nr_smr": "SGEF",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 547,
+				"name": "Dalarö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "L  ",
+					"name": "Lotsbåtar"
+				},
+				"seating_capacity": 325,
+				"max_capacity": 500,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 547,
+				"mmsi": "265547840",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 547,
+				"signal_reg_nr": "SGER",
+				"reg_nr_smr": "SGER",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 548,
+				"name": "Nämdö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 149,
+				"max_capacity": 280,
+				"active": true,
+				"start_date": "2022-12-08"
+			},
+			"vessel_extra_information": {
+				"kst": 548,
+				"mmsi": "265649360",
+				"motor_tpe": "IMO Tier II",
+				"crane": true,
+				"rebus_id": 548,
+				"signal_reg_nr": "SARB",
+				"reg_nr_smr": "SMRN",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 549,
+				"name": "Gällnö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 148,
+				"max_capacity": 280,
+				"active": true,
+				"start_date": "2022-12-08"
+			},
+			"vessel_extra_information": {
+				"kst": 549,
+				"mmsi": "265649350",
+				"motor_tpe": "IMO Tier II",
+				"crane": true,
+				"rebus_id": 549,
+				"signal_reg_nr": "SKBN",
+				"reg_nr_smr": "SKBN",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 550,
+				"name": "Yxlan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 120,
+				"max_capacity": 150,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 550,
+				"mmsi": "265811390",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 550,
+				"signal_reg_nr": "SHKE",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 552,
+				"name": "Holmögadd",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 12,
+				"max_capacity": 12,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 552,
+				"rebus_id": 552,
+				"signal_reg_nr": "552",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 553,
+				"name": "Rospiggen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 40,
+				"max_capacity": 45,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 553,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 553,
+				"signal_reg_nr": "553",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 554,
+				"name": "Skraken",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 28,
+				"max_capacity": 30,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 554,
+				"mmsi": "265767620",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 554,
+				"signal_reg_nr": "SBEQ",
+				"reg_nr_smr": "SBEQ",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 555,
+				"name": "Viggen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 60,
+				"max_capacity": 110,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 555,
+				"mmsi": "265588920",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 555,
+				"signal_reg_nr": "555",
+				"reg_nr_smr": "SBDK",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 556,
+				"name": "Kung Ring (old)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 60,
+				"max_capacity": 100,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 556,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 556,
+				"signal_reg_nr": "556",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 557,
+				"name": "Taxibåt (Westerman)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 557,
+				"rebus_id": 557,
+				"signal_reg_nr": "557",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 558,
+				"name": "Sirena",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 16,
+				"max_capacity": 30,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 558,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 558,
+				"signal_reg_nr": "558",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 559,
+				"name": "Svävare (Westerman)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 559,
+				"rebus_id": 559,
+				"signal_reg_nr": "559",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 560,
+				"name": "Elida",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 560,
+				"crane": true,
+				"rebus_id": 560,
+				"signal_reg_nr": "560",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 561,
+				"name": "Gladan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				},
+				"max_capacity": 25,
+				"active": true,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 561,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 561,
+				"signal_reg_nr": "561",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 564,
+				"name": "Ornö-Färja",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 564,
+				"rebus_id": 564,
+				"signal_reg_nr": "564",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 570,
+				"name": "Helikopter",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "H  ",
+					"name": "Helikopter"
+				},
+				"max_capacity": 5,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 570,
+				"rebus_id": 570,
+				"signal_reg_nr": "570",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 576,
+				"name": "Tuva",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 42,
+				"max_capacity": 44,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 576,
+				"mmsi": "265507230",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 576,
+				"signal_reg_nr": "576",
+				"reg_nr_smr": "SIEY",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 577,
+				"name": "Stångskär",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 45,
+				"max_capacity": 68,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 577,
+				"mmsi": "265515070",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 577,
+				"signal_reg_nr": "577",
+				"reg_nr_smr": "SKDY",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 579,
+				"name": "Möja buss",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				},
+				"active": true,
+				"start_date": "2022-10-06"
+			},
+			"vessel_extra_information": {
+				"kst": 579,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 579,
+				"signal_reg_nr": "579",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 620,
+				"name": "Ballerina",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 54,
+				"max_capacity": 98,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 620,
+				"mmsi": "265550720",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 620,
+				"signal_reg_nr": "SKNY",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 621,
+				"name": "Gurli",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 58,
+				"max_capacity": 98,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 621,
+				"mmsi": "265687640",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 621,
+				"signal_reg_nr": "SLEG",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 622,
+				"name": "Kanholmen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 190,
+				"active": true,
+				"start_date": "2020-09-02"
+			},
+			"vessel_extra_information": {
+				"kst": 622,
+				"mmsi": "265582580",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 622,
+				"signal_reg_nr": "SLGP",
+				"adveto_type": "MDB",
+				"after_treatment_installed": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 623,
+				"name": "Kung Ring",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 64,
+				"max_capacity": 125,
+				"active": true,
+				"start_date": "2021-11-16"
+			},
+			"vessel_extra_information": {
+				"kst": 623,
+				"mmsi": "265588930",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 623,
+				"signal_reg_nr": "SFGI",
+				"adveto_type": "MDB",
+				"after_treatment_installed": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 624,
+				"name": "Hättan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 49,
+				"max_capacity": 98,
+				"active": true,
+				"start_date": "2021-11-16"
+			},
+			"vessel_extra_information": {
+				"kst": 624,
+				"mmsi": "265599790",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 624,
+				"signal_reg_nr": "SKYG",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 625,
+				"name": "Sjövägen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 84,
+				"max_capacity": 190,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 625,
+				"mmsi": "265721770",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 625,
+				"signal_reg_nr": "SJHT",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 626,
+				"name": "Stockholms Ström 3",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 190,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 626,
+				"mmsi": "265585430",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 626,
+				"signal_reg_nr": "SEIG",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 627,
+				"name": "Kungshatt",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 112,
+				"max_capacity": 196,
+				"active": true,
+				"start_date": "2020-09-02"
+			},
+			"vessel_extra_information": {
+				"kst": 627,
+				"mmsi": "265549180",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 627,
+				"signal_reg_nr": "627",
+				"reg_nr_smr": "SFCW",
+				"adveto_type": "MDB",
+				"after_treatment_installed": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 628,
+				"name": "Clara",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 190,
+				"max_capacity": 190,
+				"active": true,
+				"start_date": "2020-08-31"
+			},
+			"vessel_extra_information": {
+				"kst": 628,
+				"mmsi": "265828550",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 628,
+				"signal_reg_nr": "SBPM",
+				"reg_nr_smr": "SBPM",
+				"adveto_type": "MDB",
+				"after_treatment_installed": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 629,
+				"name": "Maria",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 190,
+				"max_capacity": 190,
+				"active": true,
+				"start_date": "2020-08-31"
+			},
+			"vessel_extra_information": {
+				"kst": 629,
+				"mmsi": "265828570",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 629,
+				"signal_reg_nr": "SBPA",
+				"reg_nr_smr": "SBPA",
+				"adveto_type": "MDB",
+				"after_treatment_installed": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 630,
+				"name": "Sofia",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 190,
+				"max_capacity": 190,
+				"active": true,
+				"start_date": "2020-08-31"
+			},
+			"vessel_extra_information": {
+				"kst": 630,
+				"mmsi": "265828560",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 630,
+				"signal_reg_nr": "SBPF",
+				"reg_nr_smr": "SBPF",
+				"adveto_type": "MDB",
+				"after_treatment_installed": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 631,
+				"name": "Delfin XII",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 233,
+				"max_capacity": 233,
+				"active": true,
+				"start_date": "2021-11-16"
+			},
+			"vessel_extra_information": {
+				"kst": 631,
+				"mmsi": "265609580",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 631,
+				"signal_reg_nr": "SERO",
+				"adveto_type": "MDB",
+				"after_treatment_installed": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 632,
+				"name": "Stockholms Ström 2",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 121,
+				"active": true,
+				"start_date": "2020-01-02"
+			},
+			"vessel_extra_information": {
+				"kst": 632,
+				"mmsi": "265585440",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 632,
+				"signal_reg_nr": "SDTR",
+				"reg_nr_smr": "632",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 633,
+				"name": "Katarina",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 190,
+				"active": true,
+				"start_date": "2020-12-22"
+			},
+			"vessel_extra_information": {
+				"kst": 633,
+				"mmsi": "265011360",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 633,
+				"signal_reg_nr": "SBYL",
+				"reg_nr_smr": "SBYL",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 651,
+				"name": "Delfin XI",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 180,
+				"max_capacity": 180,
+				"active": true,
+				"start_date": "2020-06-03"
+			},
+			"vessel_extra_information": {
+				"kst": 651,
+				"mmsi": "265609560",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 651,
+				"signal_reg_nr": "SERK ",
+				"reg_nr_smr": "SERK ",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 652,
+				"name": "Strömma Kanal",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 70,
+				"max_capacity": 220,
+				"active": true,
+				"start_date": "2020-06-03"
+			},
+			"vessel_extra_information": {
+				"kst": 652,
+				"mmsi": "265609570",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 652,
+				"signal_reg_nr": "SJLM",
+				"reg_nr_smr": "SJLM",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 653,
+				"name": "Waxholm III",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 84,
+				"max_capacity": 300,
+				"active": true,
+				"start_date": "2020-06-03"
+			},
+			"vessel_extra_information": {
+				"kst": 653,
+				"mmsi": "265609530",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 653,
+				"signal_reg_nr": "SHDM",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 654,
+				"name": "Östanå I",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 100,
+				"max_capacity": 300,
+				"active": true,
+				"start_date": "2020-06-03"
+			},
+			"vessel_extra_information": {
+				"kst": 654,
+				"mmsi": "265609500",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 654,
+				"signal_reg_nr": "SHND",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 661,
+				"name": "Cinderella I",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 450,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 661,
+				"mmsi": "265524530",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 661,
+				"signal_reg_nr": "661",
+				"reg_nr_smr": "SBLK",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 662,
+				"name": "Cinderella II",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 450,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 662,
+				"mmsi": "265609540",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 662,
+				"signal_reg_nr": "662",
+				"reg_nr_smr": "SHOR",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 663,
+				"name": "Askungen (Strömma)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 173,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 663,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 663,
+				"signal_reg_nr": "663",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 664,
+				"name": "Eskil",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 70,
+				"max_capacity": 100,
+				"active": true,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 664,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 664,
+				"signal_reg_nr": "664",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 665,
+				"name": "Evert Taube",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 70,
+				"max_capacity": 237,
+				"active": true,
+				"start_date": "2020-06-04"
+			},
+			"vessel_extra_information": {
+				"kst": 665,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 665,
+				"signal_reg_nr": "Xxxx",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 666,
+				"name": "Mälarvictoria",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 120,
+				"max_capacity": 310,
+				"active": true,
+				"start_date": "2020-06-04"
+			},
+			"vessel_extra_information": {
+				"kst": 666,
+				"mmsi": "265609490",
+				"motor_tpe": "IMO Tier I",
+				"signal_reg_nr": "SKRF",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 667,
+				"name": "Delfin X",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 161,
+				"max_capacity": 161,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 667,
+				"mmsi": "265609610",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 667,
+				"signal_reg_nr": "SEQW",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 668,
+				"name": "Gustafsberg VII",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 150,
+				"max_capacity": 250,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 668,
+				"rebus_id": 668,
+				"signal_reg_nr": "668",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 671,
+				"name": "Sjögull",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 152,
+				"max_capacity": 344,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 671,
+				"mmsi": "265522690",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 671,
+				"signal_reg_nr": "671",
+				"reg_nr_smr": "SLXP",
+				"adveto_type": "MDB",
+				"telephone": "sjogull@blidosundsbolaget.se"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 672,
+				"name": "Sjöbris",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 152,
+				"max_capacity": 344,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 672,
+				"mmsi": "265522700",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 672,
+				"signal_reg_nr": "672",
+				"reg_nr_smr": "SKLJ",
+				"adveto_type": "MDB",
+				"telephone": "sjobris@blidosundsbo"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 673,
+				"name": "Blidösund",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 150,
+				"max_capacity": 250,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 673,
+				"rebus_id": 673,
+				"signal_reg_nr": "673",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 674,
+				"name": "Riddarfjärden",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 100,
+				"max_capacity": 120,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 674,
+				"mmsi": "265629200",
+				"motor_tpe": "Ä-2,5",
+				"rebus_id": 674,
+				"signal_reg_nr": "674",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 675,
+				"name": "Stina",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 12,
+				"max_capacity": 12
+			},
+			"vessel_extra_information": {
+				"kst": 675,
+				"rebus_id": 675,
+				"signal_reg_nr": "675",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 676,
+				"name": "Sunnan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 100,
+				"max_capacity": 198,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 676,
+				"mmsi": "265615050",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 676,
+				"signal_reg_nr": "SIAG",
+				"reg_nr_smr": "11029",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 677,
+				"name": "Rex",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 100,
+				"max_capacity": 120,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 677,
+				"mmsi": "265768380",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 677,
+				"signal_reg_nr": "SLWF",
+				"reg_nr_smr": "SLWF",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 678,
+				"name": "Saltsjön ÅABS",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 290,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 678,
+				"mmsi": "265522960",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 678,
+				"signal_reg_nr": "678",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 679,
+				"name": "Östan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 145,
+				"max_capacity": 230,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 679,
+				"mmsi": "265575480",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 679,
+				"signal_reg_nr": "679",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 681,
+				"name": "Mysing",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 97,
+				"max_capacity": 247,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 681,
+				"mmsi": "265321000",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 681,
+				"signal_reg_nr": "XXXX",
+				"reg_nr_smr": "SGPC",
+				"adveto_type": "MDB",
+				"telephone": "070-699 06 22, schroder@telia.com"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 682,
+				"name": "Havsörnen URAB",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Ha ",
+					"name": "Havsörnen"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 682,
+				"signal_reg_nr": "SIBY",
+				"reg_nr_smr": "SIBY",
+				"adveto_type": "MDB",
+				"telephone": "070-799 09 93, schroder@telia.com"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 683,
+				"name": "Utö Express",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 113,
+				"max_capacity": 346,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 683,
+				"mmsi": "265530460",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 683,
+				"signal_reg_nr": "SJYC",
+				"reg_nr_smr": "SJYC",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 684,
+				"name": "Gotska Sandön",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 684,
+				"mmsi": "265518280",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 684,
+				"signal_reg_nr": "684",
+				"reg_nr_smr": "684",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 687,
+				"name": "Korsön",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 98,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 687,
+				"motor_tpe": "Ä-2,5",
+				"rebus_id": 687,
+				"signal_reg_nr": "687",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 688,
+				"name": "Sandö Express",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 688,
+				"signal_reg_nr": "688",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 689,
+				"name": "Tärnan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				},
+				"max_capacity": 120,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 689,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 689,
+				"signal_reg_nr": "689",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 690,
+				"name": "Taxibåt (Sandhamns Båttaxi)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 12,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 690,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 690,
+				"signal_reg_nr": "690",
+				"adveto_type": "MDB",
+				"telephone": "08-571 535 55"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 691,
+				"name": "Silverö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Si ",
+					"name": "Silverö"
+				},
+				"seating_capacity": 76,
+				"max_capacity": 148,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 691,
+				"mmsi": "265568520",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 691,
+				"signal_reg_nr": "SDAK",
+				"reg_nr_smr": "SDAK",
+				"adveto_type": "MDB",
+				"telephone": "070-477 04 72"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 700,
+				"name": "Lux",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 100,
+				"max_capacity": 190,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 700,
+				"mmsi": "265817800",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 700,
+				"signal_reg_nr": "SBIJ",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 701,
+				"name": "L89 Sunnan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 100,
+				"max_capacity": 198,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 701,
+				"mmsi": "265615050",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 701,
+				"signal_reg_nr": "SIAG_L89",
+				"reg_nr_smr": "11029",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 702,
+				"name": "L89 Rex",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 100,
+				"max_capacity": 120,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 702,
+				"mmsi": "265768380",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 702,
+				"signal_reg_nr": "SLWF_L89",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 703,
+				"name": "L89 Sjöbris",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 152,
+				"max_capacity": 344,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 703,
+				"mmsi": "265522700",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 703,
+				"signal_reg_nr": "703",
+				"reg_nr_smr": "SKLJ_L89",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 704,
+				"name": "L89 Östan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 145,
+				"max_capacity": 230,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 704,
+				"mmsi": "265575480",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 704,
+				"signal_reg_nr": "704",
+				"reg_nr_smr": "SDTW",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 705,
+				"name": "Sea Girl Taxibåt Vaxholm ",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 12,
+				"max_capacity": 12,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 705,
+				"mmsi": "265588860",
+				"rebus_id": 705,
+				"signal_reg_nr": "SFB 5627",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 706,
+				"name": "Prinsen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 122,
+				"max_capacity": 145,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 706,
+				"mmsi": "265588850",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 706,
+				"signal_reg_nr": "SMFI",
+				"reg_nr_smr": "SMFI",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 707,
+				"name": "Storholmen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 46,
+				"max_capacity": 96,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 707,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 707,
+				"signal_reg_nr": "707",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 708,
+				"name": "Daphne",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 49,
+				"max_capacity": 95,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 708,
+				"mmsi": "265588830",
+				"rebus_id": 708,
+				"signal_reg_nr": "SJYP",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 709,
+				"name": "Sea Lady Taxibåt Vaxholm",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 22,
+				"max_capacity": 29,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 709,
+				"mmsi": "265589280",
+				"rebus_id": 709,
+				"signal_reg_nr": "SFB 5629",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 710,
+				"name": "Athena",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 29,
+				"max_capacity": 48,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 710,
+				"mmsi": "265588820",
+				"rebus_id": 710,
+				"signal_reg_nr": "SFB 5066",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 711,
+				"name": "L89 Kungshatt",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 112,
+				"max_capacity": 196,
+				"start_date": "2020-12-22"
+			},
+			"vessel_extra_information": {
+				"kst": 711,
+				"mmsi": "265549180",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 711,
+				"signal_reg_nr": "711",
+				"reg_nr_smr": "SFCW",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 713,
+				"name": "Långvik",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 80,
+				"max_capacity": 149,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 713,
+				"mmsi": "265591570",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 713,
+				"signal_reg_nr": "713",
+				"reg_nr_smr": "SBRC",
+				"adveto_type": "MDB",
+				"telephone": "haningecharter@telia.com"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 714,
+				"name": "Romina (old)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 50,
+				"max_capacity": 100,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 714,
+				"mmsi": "265762030",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 714,
+				"signal_reg_nr": "714",
+				"reg_nr_smr": "SBLF",
+				"adveto_type": "MDB",
+				"telephone": "haningecharter@telia.com"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 715,
+				"name": "Octava",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 715,
+				"mmsi": "265762770",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 715,
+				"signal_reg_nr": "715",
+				"reg_nr_smr": "715",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 716,
+				"name": "Ramsö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 125,
+				"max_capacity": 180,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 716,
+				"mmsi": "265522460",
+				"imo": "64 17 528",
+				"motor_tpe": "Ä+2.5",
+				"crane": true,
+				"rebus_id": 716,
+				"signal_reg_nr": "716",
+				"reg_nr_smr": "SKUE",
+				"adveto_type": "MDB",
+				"smr": true,
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 720,
+				"name": "Rödlöga",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 720,
+				"mmsi": "265614020",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 720,
+				"signal_reg_nr": "720",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 721,
+				"name": "Kanholmen (old)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 148,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 721,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 721,
+				"signal_reg_nr": "721",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 725,
+				"name": "Bamse",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 45,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 725,
+				"mmsi": "265566420",
+				"motor_tpe": "Ä-2,5",
+				"rebus_id": 725,
+				"signal_reg_nr": "725",
+				"reg_nr_smr": "SDPU",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 726,
+				"name": "Hulken",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 12,
+				"max_capacity": 12,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 726,
+				"mmsi": "265566410",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 726,
+				"signal_reg_nr": "726",
+				"reg_nr_smr": "SFB7373",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 732,
+				"name": "Bellona ",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 732,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 732,
+				"signal_reg_nr": "732",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 733,
+				"name": "Gugner",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 733,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 733,
+				"signal_reg_nr": "733",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 734,
+				"name": "Hemta",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 734,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 734,
+				"signal_reg_nr": "734",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 735,
+				"name": "Båttaxi Stavsnäs",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 12,
+				"max_capacity": 12,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 735,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 735,
+				"signal_reg_nr": "735",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 736,
+				"name": "Skarpö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "Ö  ",
+					"name": "Ö-båt"
+				},
+				"seating_capacity": 130,
+				"max_capacity": 205,
+				"active": true,
+				"start_date": "2022-11-09"
+			},
+			"vessel_extra_information": {
+				"kst": 736,
+				"mmsi": "265522470",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 736,
+				"signal_reg_nr": "SLZE",
+				"reg_nr_smr": "SLZE",
+				"adveto_type": "MDB",
+				"tross": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 737,
+				"name": "Madam",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 120,
+				"max_capacity": 198,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 737,
+				"mmsi": "265502100",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 737,
+				"signal_reg_nr": "737",
+				"reg_nr_smr": "SDUZ",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 738,
+				"name": "Cascad",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 36,
+				"max_capacity": 60,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 738,
+				"mmsi": "265579740",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 738,
+				"signal_reg_nr": "738",
+				"reg_nr_smr": "SLPW",
+				"adveto_type": "MDB",
+				"telephone": "070-738 00 52"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 739,
+				"name": "Gripen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 40,
+				"max_capacity": 65,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 739,
+				"mmsi": "265738560",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 739,
+				"signal_reg_nr": "739",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 740,
+				"name": "Minerva",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 98,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 740,
+				"mmsi": "265627340",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 740,
+				"signal_reg_nr": "740",
+				"reg_nr_smr": "SMGH",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 741,
+				"name": "Doc",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 24,
+				"max_capacity": 29,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 741,
+				"mmsi": "265687160",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 741,
+				"signal_reg_nr": "741",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 742,
+				"name": "Ikaros",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 742,
+				"rebus_id": 742,
+				"signal_reg_nr": "742",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 743,
+				"name": "Rubus",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 743,
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 743,
+				"signal_reg_nr": "743",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 744,
+				"name": "Sydsund",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 12,
+				"max_capacity": 12,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 744,
+				"mmsi": "265747590",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 744,
+				"signal_reg_nr": "744",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 745,
+				"name": "Södertörn (old)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 145,
+				"max_capacity": 230,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 745,
+				"mmsi": "265575480",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 745,
+				"signal_reg_nr": "745",
+				"reg_nr_smr": "SDTW",
+				"adveto_type": "MDB",
+				"telephone": "010-218 93 26, runmaro.kanal@swipnet.se"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 746,
+				"name": "Draken",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 36,
+				"max_capacity": 98,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 746,
+				"mmsi": "265794120",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 746,
+				"signal_reg_nr": "SDOW",
+				"adveto_type": "MDB",
+				"smr": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 747,
+				"name": "Hamnskär",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 48,
+				"max_capacity": 48,
+				"active": true,
+				"start_date": "2022-10-11"
+			},
+			"vessel_extra_information": {
+				"kst": 747,
+				"mmsi": "265044980",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 747,
+				"signal_reg_nr": "SFE-4875",
+				"reg_nr_smr": "747",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 748,
+				"name": "Sunnan (Motena)",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 100,
+				"max_capacity": 198,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 748,
+				"mmsi": "265615050",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 748,
+				"signal_reg_nr": "748",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 750,
+				"name": "Nämdöfjärd",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 120,
+				"max_capacity": 198,
+				"active": true,
+				"start_date": "2020-09-02"
+			},
+			"vessel_extra_information": {
+				"kst": 750,
+				"mmsi": "265730260",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 750,
+				"signal_reg_nr": "SDGB",
+				"adveto_type": "MDB",
+				"telephone": "010-273 74 61"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 751,
+				"name": "Silverpilen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 141,
+				"max_capacity": 346,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 751,
+				"mmsi": "265317000",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 751,
+				"signal_reg_nr": "751",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 756,
+				"name": "Vindbådan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 48,
+				"max_capacity": 73,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 756,
+				"mmsi": "265524100",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 756,
+				"signal_reg_nr": "700",
+				"reg_nr_smr": "SMEW",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 757,
+				"name": "Öfararen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 60,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 757,
+				"mmsi": "265521240",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 757,
+				"signal_reg_nr": "757",
+				"reg_nr_smr": "SGBH",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 760,
+				"name": "Sjöfrakt",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2023-01-19"
+			},
+			"vessel_extra_information": {
+				"kst": 760,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 760,
+				"signal_reg_nr": "760",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 761,
+				"name": "Sjösaga",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 112,
+				"max_capacity": 196,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 761,
+				"mmsi": "265549180",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 761,
+				"signal_reg_nr": "761",
+				"reg_nr_smr": "Kungshatt",
+				"adveto_type": "MDB",
+				"telephone": "070-738 00 53, sssab@telia.com"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 762,
+				"name": "Queen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 110,
+				"max_capacity": 140,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 762,
+				"mmsi": "265549190",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 762,
+				"signal_reg_nr": "SJXR",
+				"adveto_type": "MDB",
+				"telephone": "sssab@telia.com"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 763,
+				"name": "Isak",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 24,
+				"max_capacity": 24,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 763,
+				"mmsi": "265549200",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 763,
+				"signal_reg_nr": "763",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 764,
+				"name": "Lote",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2022-09-21"
+			},
+			"vessel_extra_information": {
+				"kst": 764,
+				"mmsi": "265549210",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 764,
+				"signal_reg_nr": "SMUZ",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 765,
+				"name": "Kungsholm",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 765,
+				"mmsi": "265616910",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 765,
+				"signal_reg_nr": "765",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 766,
+				"name": "Emelie",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 200,
+				"max_capacity": 200,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 766,
+				"mmsi": "265590730",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 766,
+				"signal_reg_nr": "SFCG",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 767,
+				"name": "Grim",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2022-09-21"
+			},
+			"vessel_extra_information": {
+				"kst": 767,
+				"mmsi": "265631420",
+				"imo": "2556263",
+				"motor_tpe": "IMO Tier III",
+				"crane": true,
+				"rebus_id": 767,
+				"signal_reg_nr": "SBLY",
+				"reg_nr_smr": "15632",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 768,
+				"name": "Per Jonsson",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 768,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 768,
+				"signal_reg_nr": "768",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 769,
+				"name": "Sandhamns Rederi",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 769,
+				"motor_tpe": "IMO Tier I",
+				"signal_reg_nr": "769",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 770,
+				"name": "Olliver",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 770,
+				"mmsi": "265602050",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 770,
+				"signal_reg_nr": "SJAL",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 771,
+				"name": "Renskär",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2021-12-27"
+			},
+			"vessel_extra_information": {
+				"kst": 771,
+				"mmsi": "265634350",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 771,
+				"signal_reg_nr": "SJAY",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 772,
+				"name": "Diana",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "K  ",
+					"name": "Kompletteringstrafik"
+				},
+				"active": true,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 772,
+				"motor_tpe": "IMO Tier I",
+				"signal_reg_nr": "772",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 773,
+				"name": "Askungen",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 100,
+				"max_capacity": 173,
+				"active": true,
+				"start_date": "2021-12-27"
+			},
+			"vessel_extra_information": {
+				"kst": 773,
+				"mmsi": "265629800",
+				"imo": "8921987",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 773,
+				"signal_reg_nr": "SCJL",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 774,
+				"name": "Hunter",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 20,
+				"max_capacity": 34,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 774,
+				"motor_tpe": "Ä-2,5",
+				"rebus_id": 774,
+				"signal_reg_nr": "774",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 775,
+				"name": "Swea Sandö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 32,
+				"max_capacity": 69,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 775,
+				"mmsi": "265526080",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 775,
+				"signal_reg_nr": "775",
+				"reg_nr_smr": "SKOM",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 776,
+				"name": "Nordan",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 150,
+				"active": true,
+				"start_date": "2021-12-27"
+			},
+			"vessel_extra_information": {
+				"kst": 776,
+				"mmsi": "265523880",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 776,
+				"signal_reg_nr": "SDRW",
+				"reg_nr_smr": "776",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 777,
+				"name": "Romina",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 50,
+				"max_capacity": 100,
+				"active": true,
+				"start_date": "2022-12-08"
+			},
+			"vessel_extra_information": {
+				"kst": 777,
+				"mmsi": "265762030",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 777,
+				"signal_reg_nr": "777",
+				"reg_nr_smr": "SBLF",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 778,
+				"name": "Moneta eller Lottina",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 778,
+				"signal_reg_nr": "778",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 779,
+				"name": "Moneta",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 35,
+				"max_capacity": 63,
+				"start_date": "2021-05-28"
+			},
+			"vessel_extra_information": {
+				"kst": 779,
+				"mmsi": "265616910",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 779,
+				"signal_reg_nr": "779",
+				"reg_nr_smr": "SJPH",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 780,
+				"name": "Lottina",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 55,
+				"max_capacity": 80,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 780,
+				"mmsi": "265593530",
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 780,
+				"signal_reg_nr": "780",
+				"reg_nr_smr": "SLMJ",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 781,
+				"name": "Östergarn",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 781,
+				"signal_reg_nr": "781",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 782,
+				"name": "Hydrokopter",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 782,
+				"rebus_id": 782,
+				"signal_reg_nr": "782",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 783,
+				"name": "Lusca",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 12,
+				"max_capacity": 12,
+				"active": true,
+				"start_date": "2022-02-14"
+			},
+			"vessel_extra_information": {
+				"kst": 783,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 783,
+				"signal_reg_nr": "783",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 791,
+				"name": "Tess",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 48,
+				"max_capacity": 52,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 791,
+				"mmsi": "265615670",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 791,
+				"signal_reg_nr": "791",
+				"reg_nr_smr": "SHYQ",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 793,
+				"name": "Svävare Nämdö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 6,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 793,
+				"rebus_id": 793,
+				"signal_reg_nr": "793",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 794,
+				"name": "Svävare Isela",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 8,
+				"active": true
+			},
+			"vessel_extra_information": {
+				"kst": 794,
+				"rebus_id": 794,
+				"signal_reg_nr": "794",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 795,
+				"name": "Svävare",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 8,
+				"active": true,
+				"start_date": "2021-02-04"
+			},
+			"vessel_extra_information": {
+				"kst": 795,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 795,
+				"signal_reg_nr": "795",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 796,
+				"name": "Monsun",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 58,
+				"max_capacity": 95,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 796,
+				"mmsi": "265588910",
+				"motor_tpe": "IMO Tier III",
+				"rebus_id": 796,
+				"signal_reg_nr": "796",
+				"reg_nr_smr": "SCNG",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 797,
+				"name": "Hemfjord",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 24,
+				"max_capacity": 48,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 797,
+				"mmsi": "265630390",
+				"motor_tpe": "Ä-2,5",
+				"rebus_id": 797,
+				"signal_reg_nr": "797",
+				"reg_nr_smr": "SGNU",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 798,
+				"name": "Kiwikaksi",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 798,
+				"motor_tpe": "IMO Tier I",
+				"signal_reg_nr": "798",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 799,
+				"name": "Ridö",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 799,
+				"motor_tpe": "IMO Tier I",
+				"crane": true,
+				"signal_reg_nr": "SIBT",
+				"adveto_type": "MDB",
+				"telephone": "X"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 800,
+				"name": "Aurelia",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 35,
+				"max_capacity": 35,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 800,
+				"motor_tpe": "Ä-2,5",
+				"rebus_id": 800,
+				"signal_reg_nr": " SGEU ",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 805,
+				"name": "Symfoni",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 180,
+				"active": true,
+				"start_date": "2020-05-20"
+			},
+			"vessel_extra_information": {
+				"kst": 805,
+				"mmsi": "265523170",
+				"imo": "8634376",
+				"motor_tpe": "IMO Tier II",
+				"signal_reg_nr": "SBWH",
+				"adveto_type": "MDB",
+				"after_treatment_installed": true
+			}
+		},
+		{
+			"vehicle": {
+				"number": 810,
+				"name": "X Sirena",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 810,
+				"motor_tpe": "IMO Tier I",
+				"signal_reg_nr": "810",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 811,
+				"name": "Mirella",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				},
+				"seating_capacity": 32,
+				"max_capacity": 40,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 811,
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 811,
+				"signal_reg_nr": "811",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 812,
+				"name": "Aquarella",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				},
+				"seating_capacity": 17,
+				"max_capacity": 24,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 812,
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 812,
+				"signal_reg_nr": "812",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 813,
+				"name": "Holly",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 68,
+				"max_capacity": 98,
+				"active": true,
+				"start_date": "2019-12-12"
+			},
+			"vessel_extra_information": {
+				"kst": 813,
+				"mmsi": "265730240",
+				"motor_tpe": "IMO Tier II",
+				"rebus_id": 813,
+				"signal_reg_nr": "813",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 814,
+				"name": "Bella",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				},
+				"seating_capacity": 22,
+				"max_capacity": 29,
+				"start_date": "2020-01-20"
+			},
+			"vessel_extra_information": {
+				"kst": 814,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 814,
+				"signal_reg_nr": "814",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 820,
+				"name": "Svävare 1",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 8,
+				"active": true,
+				"start_date": "2021-11-29"
+			},
+			"vessel_extra_information": {
+				"kst": 820,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 820,
+				"signal_reg_nr": "820",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 821,
+				"name": "Svävare 2",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"max_capacity": 8,
+				"active": true,
+				"start_date": "2021-11-29"
+			},
+			"vessel_extra_information": {
+				"kst": 821,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 821,
+				"signal_reg_nr": "821",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 901,
+				"name": "Båttaxi TL",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "XF ",
+					"name": "Oklassat fartyg, ex.vis ej eget tonnage"
+				},
+				"seating_capacity": 12,
+				"max_capacity": 12,
+				"active": true,
+				"start_date": "2022-06-27"
+			},
+			"vessel_extra_information": {
+				"kst": 901,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 901,
+				"signal_reg_nr": "901",
+				"reg_nr_smr": "901",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 990,
+				"name": "Ornö Buss",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 990,
+				"rebus_id": 990,
+				"signal_reg_nr": "990",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 991,
+				"name": "Tynningö Buss",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 991,
+				"rebus_id": 991,
+				"signal_reg_nr": "991",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 992,
+				"name": "Möja Buss",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 992,
+				"rebus_id": 992,
+				"signal_reg_nr": "992",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 994,
+				"name": "UtöTaxi",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "X1 ",
+					"name": "Diverse som ej är fartyg"
+				},
+				"active": true,
+				"start_date": "2021-04-07"
+			},
+			"vessel_extra_information": {
+				"kst": 994,
+				"motor_tpe": "IMO Tier I",
+				"rebus_id": 994,
+				"signal_reg_nr": "994",
+				"adveto_type": "MDB"
+			}
+		},
+		{
+			"vehicle": {
+				"number": 999,
+				"name": "Dummie",
+				"transport_mode": "VESSEL",
+				"vehicle_type": {
+					"type": "F  ",
+					"name": "Djurgårdsfärja"
+				}
+			},
+			"vessel_extra_information": {
+				"kst": 999,
+				"rebus_id": 999,
+				"signal_reg_nr": "999",
+				"adveto_type": "MDB"
+			}
+		}
+	]
+}
